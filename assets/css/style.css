@@ -1,0 +1,116 @@
+body {
+
+    background-color: #000000;
+    background-image: url("../images/bc.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    border-radius: 3px;
+    margin: 8% auto;
+    color: white;
+    max-width: 350px;
+    padding: 40px;
+    text-align: center;
+  
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(181, 24, 24, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  h1 {
+    color: #fafafa;
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 10px 12px;
+    width: 100%;
+  }
+  .button {
+    background-color: #0095f6;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  button {
+    background-color: #0095f6;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .button-icon {
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px 20px;
+    padding-left: 30px;
+  }
+  
+  button:hover {
+    background-color: #0077e6;
+  }
+  
+  a {
+    color: #0077e6;
+    text-decoration: none;
+  }
+  
+  blur {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  .input-label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #0095f6;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    background-color: #f8f8f8;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #0095f6;
+    box-shadow: 0 0 5px rgba(0, 149, 246, 0.3);
+  }
